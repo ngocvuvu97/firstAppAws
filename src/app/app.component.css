@@ -1,0 +1,29 @@
+#firstStep img{
+    position: fixed !important;
+    position: absolute;
+    top: -140px;
+    right: 0px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#firstStep img {
+    position: relative;
+}
+#firstStep .mat-advanced-audio-player{
+    position: absolute;
+}
+#firstStep .mp3 .ng-star-inserted{
+    font-size: 50px;
+}
+@media screen and (max-width: 480px) {
+    #firstStep img{
+        position: fixed !important;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: -200px;
+        width: 300%;
+    }
+  }
